@@ -151,7 +151,7 @@ let mapOptions = {
 
 let map = new L.map('map' , mapOptions);
 // DOMYSLNIE JEST 'http brakuje https i wywala blad ze nie zabezpiezone
-let layer = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+let layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
 map.addLayer(layer);
 
 //Hawkridge Compost Facility Inc
